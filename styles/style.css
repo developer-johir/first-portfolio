@@ -1,0 +1,62 @@
+/* common shared styles */
+body{
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+}
+
+/* Nan related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+    padding: 0 120px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-img{
+    width: 500px;
+}
